@@ -14,6 +14,10 @@
 		DBD381481CA17E6D00782C43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD381461CA17E6D00782C43 /* LaunchScreen.storyboard */; };
 		DBD381531CA17E6D00782C43 /* TableViewFunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD381521CA17E6D00782C43 /* TableViewFunTests.swift */; };
 		DBD3815E1CA17E6D00782C43 /* TableViewFunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD3815D1CA17E6D00782C43 /* TableViewFunUITests.swift */; };
+		DBD3816C1CA1BF4200782C43 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD3816B1CA1BF4200782C43 /* CustomCell.swift */; };
+		DBD3816E1CA1C30C00782C43 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD3816D1CA1C30C00782C43 /* Food.swift */; };
+		DBE5520E1CB6D92E00FC467D /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE5520D1CB6D92E00FC467D /* ListViewController.swift */; };
+		DBE9E2A61D1F0FAF00590612 /* FoodItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE9E2A51D1F0FAF00590612 /* FoodItems.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,7 @@
 /* Begin PBXFileReference section */
 		DBD3813A1CA17E6C00782C43 /* TableViewFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBD3813D1CA17E6C00782C43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DBD3813F1CA17E6C00782C43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBD3813F1CA17E6C00782C43 /* ViewController.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DBD381421CA17E6C00782C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DBD381441CA17E6D00782C43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBD381471CA17E6D00782C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,10 @@
 		DBD381591CA17E6D00782C43 /* TableViewFunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewFunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBD3815D1CA17E6D00782C43 /* TableViewFunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewFunUITests.swift; sourceTree = "<group>"; };
 		DBD3815F1CA17E6D00782C43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBD3816B1CA1BF4200782C43 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		DBD3816D1CA1C30C00782C43 /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		DBE5520D1CB6D92E00FC467D /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		DBE9E2A51D1F0FAF00590612 /* FoodItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodItems.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +105,16 @@
 		DBD3813C1CA17E6C00782C43 /* TableViewFun */ = {
 			isa = PBXGroup;
 			children = (
+				DBD3816D1CA1C30C00782C43 /* Food.swift */,
+				DBD3816B1CA1BF4200782C43 /* CustomCell.swift */,
 				DBD3813D1CA17E6C00782C43 /* AppDelegate.swift */,
 				DBD3813F1CA17E6C00782C43 /* ViewController.swift */,
 				DBD381411CA17E6C00782C43 /* Main.storyboard */,
 				DBD381441CA17E6D00782C43 /* Assets.xcassets */,
 				DBD381461CA17E6D00782C43 /* LaunchScreen.storyboard */,
 				DBD381491CA17E6D00782C43 /* Info.plist */,
+				DBE5520D1CB6D92E00FC467D /* ListViewController.swift */,
+				DBE9E2A51D1F0FAF00590612 /* FoodItems.swift */,
 			);
 			path = TableViewFun;
 			sourceTree = "<group>";
@@ -260,7 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBD381401CA17E6C00782C43 /* ViewController.swift in Sources */,
+				DBD3816C1CA1BF4200782C43 /* CustomCell.swift in Sources */,
+				DBD3816E1CA1C30C00782C43 /* Food.swift in Sources */,
+				DBE5520E1CB6D92E00FC467D /* ListViewController.swift in Sources */,
 				DBD3813E1CA17E6C00782C43 /* AppDelegate.swift in Sources */,
+				DBE9E2A61D1F0FAF00590612 /* FoodItems.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +419,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TableViewFun/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AJZ.TableViewFun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -414,6 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TableViewFun/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AJZ.TableViewFun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -487,6 +505,7 @@
 				DBD381641CA17E6D00782C43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DBD381651CA17E6D00782C43 /* Build configuration list for PBXNativeTarget "TableViewFunTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +514,7 @@
 				DBD381671CA17E6D00782C43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DBD381681CA17E6D00782C43 /* Build configuration list for PBXNativeTarget "TableViewFunUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +523,7 @@
 				DBD3816A1CA17E6D00782C43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
