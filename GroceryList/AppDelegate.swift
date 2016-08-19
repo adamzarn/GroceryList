@@ -137,7 +137,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         if let data = NSData(contentsOfURL: contentsOfURL) {
             if let content = NSString(data: data, encoding: NSUTF8StringEncoding) {
-                print(content)
         items = []
         let lines:[String] = content.componentsSeparatedByCharactersInSet(NSCharacterSet.newlineCharacterSet()) as [String]
         
